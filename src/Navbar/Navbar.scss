@@ -1,0 +1,28 @@
+.navbar-fixed {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.navbar-container {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  padding: 24px 0;
+  height: 32px;
+
+  .image-container {
+    flex: 1 0 auto;
+  }
+
+  .navbar-items {
+    display: flex;
+    gap: 32px;
+    .navigation-item {
+      a {
+        cursor: pointer;
+        padding: 8px;
+      }
+    }
+  }
+}

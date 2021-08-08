@@ -1,0 +1,53 @@
+{
+   "navbar": {
+        "items": [
+            {
+                "name": "home",
+                "language": {
+                    "en": "Home",
+                    "es": "Inicio"
+                }
+            },
+            {
+                "name": "about-us",
+                "language": {
+                    "en": "About us",
+                    "es": "Nosotros"
+                } 
+            }, 
+            {
+                "name": "about-pp",
+                "language": {
+                    "en": "About PP",
+                    "es": "Sobre PP"
+                } 
+            },
+            {
+                "name": "gallery",
+                "language": {
+                    "en": "Gallery",
+                    "es": "Galería"
+                } 
+            },
+            {
+                "name": "contact-us",
+                "language": {
+                    "en": "Contact us",
+                    "es": "Contacto"
+                }
+            }
+        ]
+    },
+    "banner": {
+        "left_content": {
+            "subtitle": {
+                "en": "Adventure Polo in the",
+                "es": "Viví el Polo en la"
+            },
+            "title": {
+                "en" : "PATAGONIA ARGENTINA",
+                "es" : "PATAGONIA ARGENTINA"
+            }
+        }
+    }
+}

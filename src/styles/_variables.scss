@@ -1,0 +1,13 @@
+$color-active: white;
+$color-hover: white;
+$font-color: white;
+$font-size-lg: 16px;
+$font-size-md: 14px;
+$font-size-sm: 14px;
+$font-family: '';
+
+@include cellphone {
+  $font-size-lg: 14px;
+  $font-size-md: 14px;
+  $font-size-sm: 14px;
+}

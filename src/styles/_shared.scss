@@ -1,0 +1,11 @@
+@import './mixins';
+@import './variables';
+
+body {
+  color: $font-color;
+  font-size: $font-size-lg;
+
+  @include cellphone {
+    font-size: $font-size-sm;
+  }
+}
