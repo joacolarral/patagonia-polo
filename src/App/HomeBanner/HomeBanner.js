@@ -16,7 +16,16 @@ const HomeBanner = (props) => {
             <div onClick={() => handleLanguage('es')}>ES</div>
           </div>
         </div>
-        <div></div>
+        <div className="banner-right">
+          <div className="side-text">
+            <div>Arelauquen Golf & Country Club</div>
+          </div>
+          <div className="social-icons">
+            <a className="icon">IG</a>
+            <a className="icon">FB</a>
+            <a className="icon">MA</a>
+          </div>
+        </div>
       </div>
     </div>
   );

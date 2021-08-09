@@ -8,7 +8,7 @@
   display: flex;
   align-items: center;
   width: 80%;
-  padding: 24px 0;
+  padding: 32px 0;
   height: 32px;
 
   .image-container {
@@ -17,11 +17,11 @@
 
   .navbar-items {
     display: flex;
-    gap: 32px;
+    gap: 48px;
     .navigation-item {
       a {
         cursor: pointer;
-        padding: 8px;
+        padding: 12px 0;
       }
     }
   }

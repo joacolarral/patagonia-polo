@@ -1,0 +1,73 @@
+#home {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  background-image: url('../../assets/banner-polo.jpeg');
+  background-size: cover;
+}
+.home-container {
+  width: 80%;
+  height: 68%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: -12px;
+
+  .banner-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .title-container {
+      flex: 2 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      h1 {
+        max-width: 450px;
+      }
+    }
+    .language-selection {
+      flex: 1 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      gap: 32px;
+
+      div {
+        padding: 8px 0;
+      }
+    }
+  }
+
+  .banner-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    .side-text {
+      div {
+        font-size: 10px;
+        transform: scaleY(1.5);
+        transform: rotate(270deg);
+        position: relative;
+        top: 100px;
+        left: 50%;
+      }
+    }
+
+    .social-icons {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 32px;
+      .icon {
+        cursor: pointer;
+        padding: 8px 0;
+      }
+    }
+  }
+}

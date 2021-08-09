@@ -1,7 +1,6 @@
 import './App.scss';
 import { useState } from 'react';
-import infoSections from './info-sections.json';
-import bannerPolo from './assets/banner-polo.jpeg';
+import infoSections from '../info-sections.json';
 import Navbar from './Navbar/Navbar';
 import HomeBanner from './HomeBanner/HomeBanner';
 
@@ -20,7 +19,6 @@ function App() {
         content={infoSections.banner}
         lang={language}
       />
-      <img src={bannerPolo} width="1440" />
     </div>
   );
 }
