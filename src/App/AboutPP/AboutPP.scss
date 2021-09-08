@@ -1,38 +1,44 @@
-#about-us {
+#about-pp {
   width: 100%;
   display: flex;
   justify-content: center;
-  color: $color-text;
+  height: 800px;
+  background-image: url('../../assets/about-pp.jpeg');
+  background-size: cover;
   .container {
-    display: flex;
-    gap: 72px;
-    padding: 6em 0;
-    padding-left: 10%;
+    width: 85%;
+    height: 80%;
+    padding: 4em 0;
   }
   .content {
+    padding: 0.5em 0;
     display: flex;
     flex-direction: column;
-    gap: 1em;
-  }
-  h1 {
-    color: $color-title;
-    flex: 1 0 auto;
-  }
-  h2 {
-    color: $color-subtitle;
-    flex: 1 0 auto;
-  }
-  p {
-    flex: 1 0 auto;
-    line-height: 4em;
-  }
-  .images-container {
-    flex: 1 0 auto;
-    display: flex;
-    gap: 1em;
-  }
+    height: 100%;
+    .title-container {
+      flex: 1 0 auto;
+      display: flex;
+      flex-direction: column;
 
-  img {
-    width: 330px;
+      h1 {
+        width: 50%;
+        margin: 0.3em 0;
+      }
+      h2 {
+        width: 68%;
+        margin: 0.3em 0;
+      }
+    }
+    .description-container {
+      flex: 1 0 auto;
+      display: flex;
+      align-items: center;
+
+      p {
+        width: 54%;
+        margin: 0.5em 0;
+        line-height: 2.5em;
+      }
+    }
   }
 }

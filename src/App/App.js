@@ -4,6 +4,7 @@ import infoSections from '../info-sections.json';
 import Navbar from './Navbar/Navbar';
 import HomeBanner from './HomeBanner/HomeBanner';
 import AboutUs from './AboutUs/AboutUs';
+import AboutPP from './AboutPP/AboutPP';
 
 function App() {
   const [language, setLanguage] = useState('es');
@@ -21,6 +22,7 @@ function App() {
         lang={language}
       />
       <AboutUs content={infoSections.about_us} lang={language} />
+      <AboutPP content={infoSections.about_pp} lang={language} />
     </div>
   );
 }

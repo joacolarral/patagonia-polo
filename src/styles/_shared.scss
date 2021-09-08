@@ -1,6 +1,19 @@
 @import './mixins';
 @import './variables';
 
+@font-face {
+  font-family: 'montserrat-bold';
+  src: url('../assets/fonts/Montserrat/Montserrat-Black.ttf');
+}
+@font-face {
+  font-family: 'montserrat-medium';
+  src: url('../assets/fonts/Montserrat/Montserrat-Medium.ttf');
+}
+@font-face {
+  font-family: 'montserrat-semibold';
+  src: url('../assets/fonts/Montserrat/Montserrat-SemiBold.ttf');
+}
+
 body {
   color: $font-color;
   font-size: $font-size-lg;
@@ -11,13 +24,17 @@ body {
 }
 h1 {
   margin: 0;
-  font-size: 72px;
+  font-family: 'montserrat-bold';
+  font-size: 3.5em;
   font-weight: bold;
   line-height: 64px;
 }
 h2 {
+  font-family: 'montserrat-medium';
   margin: 0;
 }
 p {
+  font-family: 'montserrat-semibold';
+  font-size: 1.1em;
   margin: 0;
 }

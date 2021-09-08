@@ -1,21 +1,28 @@
-const AboutUs = (props) => {
+import { shape, string } from 'prop-types';
+
+const AboutPP = (props) => {
   const { content, lang } = props;
 
   return (
-    <div id="about-us">
+    <div id="about-pp">
       <div className="container">
         <div className="content">
-          <h1>{content.left_content.title[lang]}</h1>
-          <h2>{content.left_content.subtitle[lang]}</h2>
-          <p>{content.left_content.description[lang]}</p>
-        </div>
-        <div className="images-container">
-          <img src={TinAboutUs} />
-          <img src={CucuAboutUs} />
+          <div className="title-container">
+            <h1>{content.left_content.title[lang]}</h1>
+            <h2>{content.left_content.subtitle[lang]}</h2>
+          </div>
+          <div className="description-container">
+            <p>{content.left_content.description[lang]}</p>
+          </div>
         </div>
       </div>
     </div>
   );
 };
 
-export default AboutUs;
+AboutPP.propTypes = {
+  content: shape({ items: shape({}) }).isRequired,
+  lang: string.isRequired,
+};
+
+export default AboutPP;

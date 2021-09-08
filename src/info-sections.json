@@ -65,5 +65,21 @@
                 "es": "Lorem ipsum dolor sit amet, consectetuer adipis- cing elit, sed diam Lorem ipsum dolor sit amet, con- sectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostru ullamp ex ea commodo. iriure dolor in hen- drerit in vulputate velit esse molestie. consequat, vel"
             }
         }
+    },
+    "about_pp": {
+        "left_content": {
+            "title": {
+                "en" : "WHAT IS PATAGONIA POLO?",
+                "es" : "¿QUÉ ES PATAGONIA POLO?"
+            },
+            "subtitle": {
+                "en": "It is a summer season where we combine the sport that we like the most, with the best place in Argentina",
+                "es": "Es una temporada de verano donde combinamos el deporte que más nos gusta, con el mejor lugar de la Argentina"
+            },
+            "description": {
+                "en": "We propose a unique experience to enjoy all kinds of activities related to polo, led by professional players. Surrounded by nature, national parks and mountains. We also invite you to enjoy an intensive Polo Week that combines the best of the season in an unforgettable week! You do not have to worry about bringing anything, we take care that you have everything you need so that you can join",
+                "es": "Proponemos una experiencia única para disfrutar de todo tipo de actividades relacionadas con el polo, de la mano de jugadores profesionales. Rodeados de naturaleza, parques nacionales y montañas. También te invitamos a disfrutar de una Polo Week intensiva que combina lo mejor de la temporada en una semana inolvidable! No tenés que preocuparte por traer nada, nosotros nos encargamos de que tengas todo lo necesario para que puedas sumarte"
+            }
+        }
     }
 }
