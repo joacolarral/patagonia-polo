@@ -1,5 +1,5 @@
 import React from 'react';
-import { shape, string } from 'prop-types';
+import { arrayOf, shape, string } from 'prop-types';
 
 const Navbar = (props) => {
   const { content, lang } = props;
@@ -13,8 +13,10 @@ const Navbar = (props) => {
         <div className="navbar-items">
           {items.map((item) => {
             return (
-              <div className="navigation-item">
-                <a src={`${item.name}`}>{item.language[lang]}</a>
+              <div key={item.name} className="navigation-item">
+                <a href={`#${item.name}`} target="_self">
+                  {item.language[lang]}
+                </a>
               </div>
             );
           })}
@@ -25,7 +27,17 @@ const Navbar = (props) => {
 };
 
 Navbar.propTypes = {
-  content: shape({ items: shape({}) }).isRequired,
+  content: shape({
+    items: arrayOf(
+      shape({
+        name: string,
+        language: {
+          en: string,
+          es: string,
+        },
+      }).isRequired
+    ),
+  }).isRequired,
   lang: string.isRequired,
 };
 

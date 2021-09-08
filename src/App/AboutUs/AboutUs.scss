@@ -1,0 +1,49 @@
+#about-us {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: $color-text;
+  .container {
+    display: flex;
+    gap: 72px;
+    padding: 6em 0;
+    padding-left: 7.5%;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .title-container {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6em;
+    h1 {
+      color: $color-title;
+    }
+    h2 {
+      color: $color-subtitle;
+      width: 50%;
+    }
+  }
+
+  .description-container {
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+    p {
+      line-height: 2.5em;
+    }
+  }
+  .images-container {
+    flex: 1 0 auto;
+    display: flex;
+    gap: 1em;
+  }
+
+  img {
+    width: 330px;
+  }
+}
