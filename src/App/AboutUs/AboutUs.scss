@@ -1,0 +1,38 @@
+#about-us {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: $color-text;
+  .container {
+    display: flex;
+    gap: 72px;
+    padding: 6em 0;
+    padding-left: 10%;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  h1 {
+    color: $color-title;
+    flex: 1 0 auto;
+  }
+  h2 {
+    color: $color-subtitle;
+    flex: 1 0 auto;
+  }
+  p {
+    flex: 1 0 auto;
+    line-height: 4em;
+  }
+  .images-container {
+    flex: 1 0 auto;
+    display: flex;
+    gap: 1em;
+  }
+
+  img {
+    width: 330px;
+  }
+}

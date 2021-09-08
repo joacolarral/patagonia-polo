@@ -49,5 +49,21 @@
                 "es" : "PATAGONIA ARGENTINA"
             }
         }
+    },
+    "about_us": {
+        "left_content": {
+            "title": {
+                "en" : "ABOUT US",
+                "es" : "NOSOTROS"
+            },
+            "subtitle": {
+                "en": "We are Juan Martín and Juan Cruz Gramajo",
+                "es": "Somos Juan Martín y Juan Cruz Gramajo"
+            },
+            "description": {
+                "en": "Lorem ipsum dolor sit amet, consectetuer adipis- cing elit, sed diam Lorem ipsum dolor sit amet, con- sectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostru ullamp ex ea commodo. iriure dolor in hen- drerit in vulputate velit esse molestie. consequat, vel",
+                "es": "Lorem ipsum dolor sit amet, consectetuer adipis- cing elit, sed diam Lorem ipsum dolor sit amet, con- sectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostru ullamp ex ea commodo. iriure dolor in hen- drerit in vulputate velit esse molestie. consequat, vel"
+            }
+        }
     }
 }

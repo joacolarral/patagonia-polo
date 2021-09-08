@@ -3,6 +3,7 @@ import { useState } from 'react';
 import infoSections from '../info-sections.json';
 import Navbar from './Navbar/Navbar';
 import HomeBanner from './HomeBanner/HomeBanner';
+import AboutUs from './AboutUs/AboutUs';
 
 function App() {
   const [language, setLanguage] = useState('es');
@@ -19,6 +20,7 @@ function App() {
         content={infoSections.banner}
         lang={language}
       />
+      <AboutUs content={infoSections.about_us} lang={language} />
     </div>
   );
 }
