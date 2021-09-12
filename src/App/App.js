@@ -5,6 +5,8 @@ import Navbar from './Navbar/Navbar';
 import HomeBanner from './HomeBanner/HomeBanner';
 import AboutUs from './AboutUs/AboutUs';
 import AboutPP from './AboutPP/AboutPP';
+import Location from './Location/Location';
+import Courses from './Courses/Courses';
 
 function App() {
   const [language, setLanguage] = useState('es');
@@ -23,6 +25,8 @@ function App() {
       />
       <AboutUs content={infoSections.about_us} lang={language} />
       <AboutPP content={infoSections.about_pp} lang={language} />
+      <Location />
+      <Courses content={infoSections.courses} lang={language} />
     </div>
   );
 }
