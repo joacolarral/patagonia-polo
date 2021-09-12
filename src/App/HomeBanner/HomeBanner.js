@@ -21,7 +21,12 @@ const HomeBanner = (props) => {
             <div>Arelauquen Golf & Country Club</div>
           </div>
           <div className="social-icons">
-            <a className="icon">IG</a>
+            <a
+              href="https://www.instagram.com/patagonia.polo/"
+              className="icon"
+            >
+              IG
+            </a>
             <a className="icon">FB</a>
             <a className="icon">MA</a>
           </div>

@@ -81,5 +81,53 @@
                 "es": "Proponemos una experiencia única para disfrutar de todo tipo de actividades relacionadas con el polo, de la mano de jugadores profesionales. Rodeados de naturaleza, parques nacionales y montañas. También te invitamos a disfrutar de una Polo Week intensiva que combina lo mejor de la temporada en una semana inolvidable! No tenés que preocuparte por traer nada, nosotros nos encargamos de que tengas todo lo necesario para que puedas sumarte"
             }
         }
+    },
+    "courses": {
+        "carousel": [
+                {
+                    "img": "classes",
+                    "title": {
+                        "en" : "Tacking classes",
+                        "es" : "Clases de taqueo"
+                    },
+                    "description": {
+                        "en": "Do you want to learn to play polo or improve your technique? This section is for you. We give individual and group classes",
+                        "es": "¿Querés aprender a jugar al polo o perfeccionar tu técnica? Esta sección es para vos. Damos clases individuales y grupales"
+                    }
+                },
+                {
+                    "img": "practices",
+                    "title": {
+                        "en" : "Practices",
+                        "es" : "Prácticas"
+                    },
+                    "description": {
+                        "en": "Sunset of luxury! Every afternoon we play 4 chukker practices and prepare for the weekend tournament",
+                        "es": "Atardecer de lujo! Todas las tardes jugamos prácticas de 4 chukkers y nos preparamos para el torneo del fin de semana"
+                    }
+                },
+                {
+                    "img": "tournaments",
+                    "title": {
+                        "en" : "Tournaments",
+                        "es" : "Torneos"
+                    },
+                    "description": {
+                        "en": "Weekend at pure polo! Tournaments from 0 to 6 goals for beginners and intermediate players. With exclusive prizes",
+                        "es": "Fin de semana a puro polo! Torneos de 0 a 6 goles para jugadores principiantes e intermedios. Con premios exclusivos"
+                    }
+                },
+                {
+                    "img": "polo_week",
+                    "title": {
+                        "en" : "Polo Week",
+                        "es" : "Polo Week"
+                    },
+                    "description": {
+                        "en": "Do you want to learn to play polo or improve your technique? This section is for you. We give individual and group classes",
+                        "es": "¿Querés aprender a jugar al polo o perfeccionar tu técnica? Esta sección es para vos. Damos clases individuales y grupales"
+                    }
+                }
+            ]
     }
 }

@@ -1,0 +1,40 @@
+#courses {
+  padding: 4em 0 4em 7.5%;
+  background-color: #a5c4dd;
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+    max-width: 21em;
+    height: 30em;
+    margin: 1em 0;
+    box-shadow: 8px 10px 13px -6px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 8px 10px 13px -6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 8px 10px 13px -6px rgba(0, 0, 0, 0.5);
+    .detail {
+      display: flex;
+      flex-direction: column;
+      padding: 1.5em 2em;
+      gap: 0.5em;
+      height: 100%;
+    }
+    h2 {
+      color: #282f3c;
+    }
+    p {
+      color: #87a0b2;
+      font-size: 1em;
+      line-height: 1.5em;
+      flex: 1 0 auto;
+    }
+    a {
+      color: #282f3c;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+    img {
+      width: 21em;
+    }
+  }
+}
