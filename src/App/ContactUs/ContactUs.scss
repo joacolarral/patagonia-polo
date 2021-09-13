@@ -1,0 +1,102 @@
+#contact-us {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 4em 0;
+  background-image: url('../../assets/banner-polo.jpeg');
+  .container {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .info-container {
+    margin: 2em 0;
+    display: flex;
+    gap: 4em;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  .inputs-container {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+
+    .input-box {
+      padding: 0 1em;
+      background-color: rgba(255, 255, 255, 0.5);
+      display: flex;
+      gap: 1em;
+      align-items: center;
+      border-radius: 6px;
+      cursor: pointer;
+      width: 20em;
+      label {
+        color: black;
+        cursor: pointer;
+      }
+      input {
+        font-size: 16px;
+        background-color: transparent;
+        border: 0;
+        outline: none;
+        font-family: 'montserrat-medium';
+        padding: 1em 0;
+        flex: 1 0 auto;
+        &:focus-visible {
+          outline: none;
+        }
+      }
+    }
+  }
+  .textarea-box {
+    display: flex;
+    align-items: baseline;
+    gap: 1em;
+    padding: 0 1em;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 6px;
+    cursor: pointer;
+
+    label {
+      color: black;
+      cursor: pointer;
+    }
+    textarea {
+      font-size: 16px;
+      background-color: transparent;
+      border: 0;
+      outline: none;
+      font-family: 'montserrat-medium';
+      padding: 1em 0;
+      flex: 1 0 auto;
+      resize: none;
+      &:focus-visible {
+        outline: none;
+      }
+    }
+  }
+  .external-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+
+    .space-blank {
+      flex: 1 0 auto;
+    }
+
+    .social-media {
+      display: flex;
+      align-items: center;
+      gap: 2em;
+
+      .icons {
+        width: 2em;
+      }
+    }
+  }
+}
