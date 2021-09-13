@@ -129,5 +129,29 @@
                     }
                 }
             ]
+    },
+    "gallery": {
+            "title": {
+                "en" : "PHOTO GALLERY",
+                "es" : "GALERÍA DE FOTOS"
+            },
+            "subtitle": {
+                "en": [
+                    {
+                        "label": "Season 2021",
+                        "value": "season_2021"
+                    },
+                    {
+                        "label": "Season 2022",
+                        "value": "season_2022"
+                    }
+                ],
+                "es": [
+                    {
+                        "label": "Temporada 2021",
+                        "value": "temporada_2021"
+                    }
+                ]
+            }
     }
 }

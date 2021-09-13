@@ -1,0 +1,32 @@
+#gallery {
+  color: #282f3c;
+  display: flex;
+  justify-content: center;
+  padding: 4em 0;
+  .container {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  .subtitle {
+    width: 13em;
+    font-size: 1.5em;
+
+    .dropdown-control-custom {
+      padding: 8px 20px 8px 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .Dropdown-arrow {
+        position: initial;
+      }
+    }
+  }
+  .photo-gallery-container {
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+  }
+}

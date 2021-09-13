@@ -7,6 +7,7 @@ import AboutUs from './AboutUs/AboutUs';
 import AboutPP from './AboutPP/AboutPP';
 import Location from './Location/Location';
 import Courses from './Courses/Courses';
+import Gallery from './Gallery/Gallery';
 
 function App() {
   const [language, setLanguage] = useState('es');
@@ -27,6 +28,7 @@ function App() {
       <AboutPP content={infoSections.about_pp} lang={language} />
       <Location />
       <Courses content={infoSections.courses} lang={language} />
+      <Gallery content={infoSections.gallery} lang={language} />
     </div>
   );
 }
