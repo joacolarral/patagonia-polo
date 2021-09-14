@@ -1,6 +1,6 @@
 import React from 'react';
 import { arrayOf, shape, string } from 'prop-types';
-
+import PatagoniaLogo from '../../assets/logos/logo-patagonia.png';
 const Navbar = (props) => {
   const { content, lang } = props;
   const { items } = content;
@@ -8,7 +8,7 @@ const Navbar = (props) => {
     <div className="navbar-fixed">
       <div className="navbar-container">
         <div className="image-container">
-          <div>logo</div>
+          <img src={PatagoniaLogo} />
         </div>
         <div className="navbar-items">
           {items.map((item) => {

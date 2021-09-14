@@ -153,5 +153,27 @@
                     }
                 ]
             }
+    },
+    "contact_us": {
+        "title": {
+            "en" : "CONTACT",
+            "es" : "CONTACTO"
+        },
+        "subtitle": {
+            "en": "Leave us your message, we will contact you shortly",
+            "es": "Dejanos tu mensaje, nos pondremos en contacto a la brevedad"
+        },
+        "input_name": {
+            "en" : "Name",
+            "es" : "Nombre"
+        },
+        "input_mail": {
+            "en" : "Mail",
+            "es" : "Email"
+        },
+        "input_message": {
+            "en" : "Message",
+            "es" : "Mensaje"
+        }
     }
 }
