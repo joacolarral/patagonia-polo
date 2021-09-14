@@ -1,4 +1,5 @@
 import { shape, string } from 'prop-types';
+import { Facebook, Instagram, Mail } from '../../assets/icons';
 
 const HomeBanner = (props) => {
   const { content, lang, handleLanguage } = props;
@@ -25,10 +26,14 @@ const HomeBanner = (props) => {
               href="https://www.instagram.com/patagonia.polo/"
               className="icon"
             >
-              IG
+              <Instagram />
             </a>
-            <a className="icon">FB</a>
-            <a className="icon">MA</a>
+            <a className="icon">
+              <Facebook />
+            </a>
+            <a className="icon">
+              <Mail />
+            </a>
           </div>
         </div>
       </div>

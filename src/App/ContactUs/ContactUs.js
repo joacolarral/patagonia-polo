@@ -1,3 +1,5 @@
+import { Phone, Facebook, Instagram, Mail } from '../../assets/icons';
+
 const ContactUs = (props) => {
   const { content, lang } = props;
   const { title, subtitle, input_name, input_mail, input_message } = content;
@@ -32,19 +34,27 @@ const ContactUs = (props) => {
           <div className="external-contact">
             <div className="space-blank" />
             <div className="social-media">
-              <div className="icons">TE</div>
+              <div className="icons">
+                <Phone />
+              </div>
               <div>+54 9 11 58030952</div>
             </div>
             <div className="social-media">
-              <div className="icons">MA</div>
+              <div className="icons">
+                <Mail />
+              </div>
               <div>patagoniapoloweek@gmail.com</div>
             </div>
             <div className="social-media">
-              <div className="icons">IG</div>
+              <div className="icons">
+                <Instagram />
+              </div>
               <div>patagoniapolo</div>
             </div>
             <div className="social-media">
-              <div className="icons">FB</div>
+              <div className="icons">
+                <Facebook />
+              </div>
               <div>Patagonia Polo Week</div>
             </div>
           </div>
